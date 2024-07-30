@@ -57,3 +57,4 @@ class MyObserver {
 let observer = MyObserver()
 MyNotificationCenter.shared.post(name: "MyNotification", userInfo: ["key": "value"])
 
+print(1/2)

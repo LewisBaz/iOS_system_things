@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='Livelock'/>
+        <page name='Deadlock'/>
+        <page name='DispatchSemaphore'/>
+        <page name='RaceCondition'/>
+        <page name='DataRacing'/>
+        <page name='RaceConditionReal'/>
+        <page name='PriorityInversion'/>
+        <page name='ResourceStarvation'/>
+        <page name='Atomic'/>
+        <page name='ThreadSafeArray'/>
+        <page name='DispatchTimer'/>
+        <page name='DispatchSource'/>
+    </pages>
+</playground>
