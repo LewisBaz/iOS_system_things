@@ -13,5 +13,10 @@
         <page name='ThreadSafeArray'/>
         <page name='DispatchTimer'/>
         <page name='DispatchSource'/>
+        <page name='Closures'/>
+        <page name='TypicalExample'/>
+        <page name='Hashable'/>
+        <page name='Operations'/>
+        <page name='TestTasks'/>
     </pages>
 </playground>
