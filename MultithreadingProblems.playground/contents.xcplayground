@@ -18,5 +18,11 @@
         <page name='Hashable'/>
         <page name='Operations'/>
         <page name='TestTasks'/>
+        <page name='Dispatcherization'/>
+        <page name='Inlining'/>
+        <page name='wb'/>
+        <page name='OOP'/>
+        <page name='allocation'/>
+        <page name='countWhere'/>
     </pages>
 </playground>
