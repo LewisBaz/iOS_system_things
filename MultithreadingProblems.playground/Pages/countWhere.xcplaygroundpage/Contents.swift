@@ -20,6 +20,17 @@ extension Array {
     }
 }
 
+extension Array {
+    
+    func myreduce<T>(_ initialVal: T, _ nextVal: (T, Element) -> T) -> T {
+        var result = initialVal
+        for element in self {
+            result = nextVal(result, element)
+        }
+        return result
+    }
+}
+
 print([1,2,3,4,5].countWhere { element in
     return element % 2 == 0
 })
@@ -27,5 +38,9 @@ print([1,2,3,4,5].countWhere { element in
 print(["1","1","2","1","2"].countWhere { element in
     return element != "2"
 })
+
+print([1,2,3,4,5].myreduce(0, { x, y in
+    x + y
+}))
 
 //: [Next](@next)

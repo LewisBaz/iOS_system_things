@@ -24,5 +24,6 @@
         <page name='OOP'/>
         <page name='allocation'/>
         <page name='countWhere'/>
+        <page name='map'/>
     </pages>
 </playground>
